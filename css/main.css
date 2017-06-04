@@ -20,14 +20,85 @@
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
+
 }
 
 body {
   margin: 0 auto;
   font-size: 16px;
-  background-color: ;
+
+}
+
+/* NAV */
+
+nav{
+  background-color: rgba(0,0,0,0);
+  position:fixed;
+  z-index: 2000;
+
+}
+img.logo {
+  width: px;
+  height: 48px;
+  margin-left: 75px;
+  margin-top: 40px;
 }
 
 
+/* REGISTRO - VIDEO */
+
+
+
 video {
-    max-width: 1255px;
+  max-width: 1255px;
+}
+
+/* SECCION INFO */
+
+#info-phone {
+  background: linear-gradient(#6b1d82,#2b1e66);
+}
+
+.text-phone{
+  color:white;
+  align-content: space-around;
+}
+
+
+
+img.phone {
+  width: 500px;
+}
+
+/* SECCION VIDEOS */
+
+.text-video {
+  padding-top: 130px;
+}
+
+h1{
+  font-weight: bold;
+
+}
+iframe {
+  width: 200%;
+}
+
+
+
+/* SECCION INFO FINAL */
+a{
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+  background-color:#333447;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  align-items: center;
+}

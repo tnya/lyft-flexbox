@@ -87,3 +87,7 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.flex-container{
+   display: flex;
+}
